@@ -7,7 +7,7 @@ import ClearSharpIcon from '@mui/icons-material/ClearSharp'
 import AddIcon from '@mui/icons-material/Add'
 import RemoveIcon from '@mui/icons-material/Remove'
 const UpdatedLetter = ({ value, id }) => {
-  const [fontSize, setFontSize] = useState(6)
+  const [fontSize, setFontSize] = useState(4)
   const dispatch = useDispatch()
   const handleClose = (id) => {
     dispatch(filterBoard(id))
